@@ -1,0 +1,227 @@
+/* header section start */
+
+
+header {
+    background-color: #fff4e7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 60%;
+}
+
+.navbar {
+    width: 40%;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-design {
+    text-align: center;
+    margin: 2rem 0;
+    padding: .7rem;
+}
+
+.nav-design h1 {
+    font-size: 30px;
+}
+
+.nav-design p {
+    margin: 1rem 0;
+    padding: 0 18rem;
+}
+
+.nav-design img {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+/* header section end */
+
+
+
+/* main section start */
+
+
+/* feature section start */
+.feature {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.feature-grid,
+.feature-desc {
+    width: 50%;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .8rem;
+}
+
+.feature-grid div img {
+    width: 100%;
+}
+
+.feature-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.feature-desc h2 {
+    font-size: 25px;
+}
+
+.feature-desc p {
+    margin: 1rem 0;
+}
+
+/* feature section end */
+
+
+/* experience section start */
+
+.experience {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.exp-left-side {
+    padding-right: 9rem; 
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.exp-head {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.exp-head h2 {
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.exp-items {
+    margin-top: 1rem;
+}
+
+.exp {
+    padding: 1.5rem;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.099);
+    margin: 1rem 0;
+}
+
+.exp-right-side {
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.exp-right-side img{
+    width: 85%;
+}
+
+.exp-year {
+    position: absolute;
+    background-color: var(--btn-color);
+    text-align: center;
+    padding: 1.3rem 2.1rem;
+    border-radius: 5px;
+    bottom: -35px;
+    left: 50px;
+    color: white;
+    font-size: 28px;
+}
+
+.exp-year p {
+    font-size: .7rem;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.792);
+}
+
+/* experience section end */
+
+/* award section start */
+
+.award-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding: 0 2.5rem;
+}
+
+.award-cavinate {
+    border: 1px solid var(--btn-color);
+    padding: 2rem;
+    text-align: center;
+}
+
+.award-cavinate img {
+    height: 20px;
+    width: 20px;
+}
+
+.award-cavinate h3 {
+    font-size: 20px;
+}
+
+.award-cavinate h5 {
+    color: rgba(0, 0, 0, 0.586);
+}
+
+/* award section end */
+
+/* main section end */
+
+
+/* footer section start */
+
+footer .section {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+footer .section h3 {
+    font-size: 25px;
+    margin-bottom: 1.5rem;
+}
+
+footer .section p {
+    margin-bottom: 2.5rem;
+}
+
+.sponsor {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+section.footer {
+    background-color: #fff4e7;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* footer section end */
